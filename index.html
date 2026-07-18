@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="栖迟 — 记录阅读、远行与日常微光的个人博客。">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>栖迟 · 个人博客</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <a class="brand" href="#top" aria-label="栖迟博客首页">
+        <span class="brand-mark">栖</span><span>栖迟</span>
+      </a>
+      <nav class="nav-links" id="main-nav" aria-label="主导航">
+        <a class="active" href="#top">首页</a>
+        <a href="#articles">文章</a>
+        <a href="#about">关于</a>
+        <a href="#footer">联系</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" type="button" aria-label="切换深浅色模式">
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container reveal" aria-label="精选推荐">
+      <div class="hero-slides">
+        <article class="hero-slide active" data-index="0">
+          <div class="hero-art art-one" aria-hidden="true"><span class="sun-disc"></span><span class="mountain m1"></span><span class="mountain m2"></span><i>QI CHI</i></div>
+          <div class="hero-copy">
+            <p class="eyebrow">EDITOR'S PICK · 01</p>
+            <h1>去山野，<br>听风经过松林</h1>
+            <p>有些答案不在书页里，而在清晨的雾、山脊的风，和独自走过的长路上。</p>
+            <a class="text-link" href="#articles">开始阅读 <span>↗</span></a>
+          </div>
+        </article>
+        <article class="hero-slide" data-index="1" aria-hidden="true">
+          <div class="hero-art art-two" aria-hidden="true"><span class="window"></span><span class="vase"></span><i>SLOW DAYS</i></div>
+          <div class="hero-copy">
+            <p class="eyebrow">SLOW LIVING · 02</p>
+            <h1>把普通日子，<br>过得清澈明亮</h1>
+            <p>整理房间，煮一壶茶，在黄昏之前读完几页书。生活的质地，藏在细微处。</p>
+            <a class="text-link" href="#articles">开始阅读 <span>↗</span></a>
+          </div>
+        </article>
+        <article class="hero-slide" data-index="2" aria-hidden="true">
+          <div class="hero-art art-three" aria-hidden="true"><span class="paper p1"></span><span class="paper p2"></span><i>READ & WRITE</i></div>
+          <div class="hero-copy">
+            <p class="eyebrow">READING NOTES · 03</p>
+            <h1>在字句之间，<br>与另一颗心相遇</h1>
+            <p>阅读让我们抵达未曾去过的地方，写作则留下那些不愿忘记的瞬间。</p>
+            <a class="text-link" href="#articles">开始阅读 <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+      <div class="slider-controls">
+        <button class="slider-arrow prev" type="button" aria-label="上一张">←</button>
+        <div class="slider-dots" role="tablist" aria-label="选择推荐内容">
+          <button class="active" type="button" aria-label="第 1 张" data-slide="0"></button>
+          <button type="button" aria-label="第 2 张" data-slide="1"></button>
+          <button type="button" aria-label="第 3 张" data-slide="2"></button>
+        </div>
+        <span class="slider-count"><b>01</b> / 03</span>
+        <button class="slider-arrow next" type="button" aria-label="下一张">→</button>
+      </div>
+    </section>
+
+    <section class="content-grid container" id="articles">
+      <div class="articles-column">
+        <div class="section-head reveal">
+          <div><p class="eyebrow">LATEST STORIES</p><h2>近来书写</h2></div>
+          <a href="#articles">全部文章 <span>→</span></a>
+        </div>
+        <div class="article-list">
+          <article class="article-card reveal">
+            <a class="article-thumb thumb-forest" href="#"><span>行走</span><i>01</i></a>
+            <div class="article-body">
+              <div class="article-meta"><span>2026.07.12</span><span>旅行札记</span></div>
+              <h3><a href="#">夏日徒步：在青山与溪流之间</a></h3>
+              <p>沿着溪谷向上，穿过潮湿的苔藓和大片松林。远离城市以后，时间有了另一种刻度。</p>
+              <div class="article-foot"><a href="#">阅读全文 <span>↗</span></a><span>1,286 阅读</span></div>
+            </div>
+          </article>
+          <article class="article-card reveal">
+            <a class="article-thumb thumb-book" href="#"><span>阅读</span><i>02</i></a>
+            <div class="article-body">
+              <div class="article-meta"><span>2026.06.28</span><span>读书随笔</span></div>
+              <h3><a href="#">读书，是一场漫长的自我发现</a></h3>
+              <p>我们在别人的故事里看见自己，也在那些反复划过的句子里，慢慢确认内心真正珍视的东西。</p>
+              <div class="article-foot"><a href="#">阅读全文 <span>↗</span></a><span>968 阅读</span></div>
+            </div>
+          </article>
+          <article class="article-card reveal">
+            <a class="article-thumb thumb-coffee" href="#"><span>日常</span><i>03</i></a>
+            <div class="article-body">
+              <div class="article-meta"><span>2026.06.16</span><span>生活方式</span></div>
+              <h3><a href="#">认真对待每一个寻常的清晨</a></h3>
+              <p>咖啡的香气、窗边的阳光、刚刚醒来的街道。美好不必盛大，它常常只是片刻的专注。</p>
+              <div class="article-foot"><a href="#">阅读全文 <span>↗</span></a><span>742 阅读</span></div>
+            </div>
+          </article>
+        </div>
+        <button class="load-more reveal" type="button">继续探索 <span>↓</span></button>
+      </div>
+
+      <aside class="sidebar">
+        <section class="profile side-card reveal" id="about">
+          <div class="avatar" aria-hidden="true"><span>Q</span></div>
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>你好，我是乔木</h2>
+          <p>自由写作者与生活观察者。爱山川、旧书与一切缓慢生长的事物，在这里记录沿途所得。</p>
+          <div class="socials"><a href="#" aria-label="微博">微</a><a href="#" aria-label="小红书">书</a><a href="mailto:hello@example.com" aria-label="邮箱">信</a></div>
+        </section>
+
+        <form class="search side-card reveal" role="search">
+          <label for="site-search">寻找一篇文章</label>
+          <div><input id="site-search" type="search" placeholder="输入关键词..." autocomplete="off"><button type="submit" aria-label="搜索">⌕</button></div>
+        </form>
+
+        <section class="side-card reveal">
+          <div class="side-title"><h3>文章分类</h3><span>CATEGORIES</span></div>
+          <ul class="category-list">
+            <li><a href="#">旅行札记 <span>12</span></a></li><li><a href="#">读书随笔 <span>09</span></a></li><li><a href="#">生活方式 <span>16</span></a></li><li><a href="#">摄影记录 <span>07</span></a></li>
+          </ul>
+        </section>
+
+        <section class="side-card reveal">
+          <div class="side-title"><h3>热门文章</h3><span>POPULAR</span></div>
+          <ol class="popular-list">
+            <li><span>01</span><div><a href="#">一人旅行的意义</a><small>2.4k 阅读</small></div></li>
+            <li><span>02</span><div><a href="#">如何保持生活的松弛感</a><small>1.8k 阅读</small></div></li>
+            <li><span>03</span><div><a href="#">我的年度阅读书单</a><small>1.5k 阅读</small></div></li>
+          </ol>
+        </section>
+
+        <section class="side-card reveal">
+          <div class="side-title"><h3>标签云</h3><span>TAGS</span></div>
+          <div class="tags"><a href="#">阅读</a><a href="#">远行</a><a href="#">摄影</a><a href="#">独处</a><a href="#">山野</a><a href="#">咖啡</a><a href="#">成长</a></div>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container footer-main">
+      <div><a class="brand" href="#top"><span class="brand-mark">栖</span><span>栖迟</span></a><p>心有归处，不问远方。</p></div>
+      <div class="footer-nav"><a href="#top">首页</a><a href="#articles">文章</a><a href="#about">关于</a><a href="mailto:hello@example.com">联系</a></div>
+      <a class="back-top" href="#top" aria-label="返回顶部">↑</a>
+    </div>
+    <div class="container copyright"><span>© 2026 栖迟 QICHI</span><span>DESIGNED WITH QUIET THOUGHTS</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
